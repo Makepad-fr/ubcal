@@ -1,0 +1,13 @@
+{
+  "extends": "@makepad/tsconfig/tsconfig.json",
+  "exclude": [
+    "node_modules",
+    "out"
+  ],
+  "compilerOptions": {
+    "target": "ES2022",
+    "rootDir": "./src",
+    "outDir": "./out",
+    "strict": true
+  }
+}

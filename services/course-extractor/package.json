@@ -1,0 +1,24 @@
+{
+  "name": "@makepad/ubcal-course-extractor",
+  "version": "1.0.0",
+  "description": "Extract user details and student course information",
+  "private": true,
+  "main": "out/index.js",
+  "types": "out/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/eslint -c .eslintrc.json --fix src/*.ts && ./node_modules/.bin/tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "playwright-core": "^1.29.2"
+  },
+  "devDependencies": {
+    "@makepad/eslint-config": "workspace:*",
+    "@makepad/tsconfig": "workspace:*",
+    "eslint": "7.32.0",
+    "typescript": "^4.5.3"
+  },
+  "keywords": [],
+  "author": "Makepad Developers <dev@makepad.fr>",
+  "license": "GPL-3.0-or-later"
+}

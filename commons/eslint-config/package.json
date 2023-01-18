@@ -1,0 +1,17 @@
+{
+  "name": "@makepad/eslint-config",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-turbo": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
